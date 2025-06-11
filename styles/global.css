@@ -28,3 +28,23 @@ body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+a {
+  text-decoration: none; /* remove o sublinhado dos links */
+  color: inherit; /* herda a cor do elemento pai (body)*/
+}
+
+a:hover {
+  color: var(--brand-color); /* muda a cor do link ao passar o mouse */
+  text-decoration: underline; /* adiciona sublinhado ao passar o mouse */
+}
+
+.container {
+  padding-inline: 32px; /* espaçamento horizontal */
+  max-width: 1280px; /* largura máxima */
+  margin-inline: auto; /* centraliza o container */
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}

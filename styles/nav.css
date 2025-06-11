@@ -1,0 +1,24 @@
+nav {
+  display: flex; /* elemento fica do lado do outro */
+  justify-content: space-between; /* espaçamento entre os itens */
+  align-items: center; /* alinha os itens verticalmente */
+
+  line-height: 0; /* remove o espaçamento vertical entre os itens */
+  padding-block: 20px; /* espaçamento vertical */
+}
+
+nav ul {
+  list-style: none;  /* remove os marcadores da lista */
+  display: flex;
+  align-items: center; /* alinha os itens verticalmente */
+  gap: 24px; /* espaçamento entre os itens */
+
+  padding-block: 8px; /* espaçamento vertical */
+}
+
+nav ul li:last-child img { /*ultimo filho do li*/
+  width: 40px; /* largura */
+  height: 40px; /* altura */
+  object-fit: cover; /* preenche o espaço sem distorcer a imagem */
+  border-radius: 50%; /* borda arredondada */
+}
