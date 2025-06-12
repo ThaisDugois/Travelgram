@@ -1,0 +1,40 @@
+header {
+  padding-block: 32px; /* espaçamento vertical */
+  font: var(--text-md); /* fonte média */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between; /* espaçamento entre os itens */
+  align-items: center; /* alinha os itens verticalmente */
+}
+
+#profile {
+  display: flex; /* exibe os itens em linha */
+  gap: 32px; /* espaçamento entre os itens */
+}
+
+#profile > div {
+  max-width: 384px; /* largura máxima do avatar */
+}
+
+#profile h1 {
+  font: var(--text-lg); /* fonte grande */
+  color: var(--text-color-primary);
+  margin-bottom: 8px; /* espaçamento abaixo do título */
+}
+
+#info {
+  list-style: none; /* remove os marcadores da lista */
+  display: flex; /* exibe os itens em linha */
+  flex-direction: column; /* organiza os itens em coluna */
+  gap: 16px; /* espaçamento entre os itens */
+
+  width: 280px; /* largura fixa para o bloco de info */
+ }
+
+ #info li {
+  display: flex; /* exibe os itens em linha */
+  align-items: center; /* alinha os itens verticalmente */
+  gap: 8px; /* espaçamento entre os itens */
+ }
