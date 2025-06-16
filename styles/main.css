@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  flex-wrap: wrap; /* preenche os espaços disponiveis */
+  gap: 24px; /* espaçamento entre os itens */
+  padding-block: 24px; /* espaçamento inferior */
+}
+
+main img {
+  width: 286px; /* largura da imagem */
+  height: 286px; /* altura da imagem */
+  object-fit: cover; /* preenche a imagem */
+}
