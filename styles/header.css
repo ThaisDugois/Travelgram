@@ -18,6 +18,13 @@ header .container {
   max-width: 384px; /* largura máxima do avatar */
 }
 
+#profile img {
+  width: 176px; /* largura do avatar */
+  height: 176px; /* altura do avatar */
+  border-radius: 50%; /* bordas arredondadas */
+  object-fit: cover; /* cobre o espaço do avatar */
+}
+
 #profile h1 {
   font: var(--text-lg); /* fonte grande */
   color: var(--text-color-primary);
