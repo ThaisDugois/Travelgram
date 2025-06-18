@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  gap: 24px; /* espaçamento entre os elementos filhos */
+  padding-block: 24px; /* espaçamento vertical */;
+}
+
+footer span:nth-child(1) { /* numero do filho (da cx footer) */
+  margin-right: auto; /* margem direita automática */
+}
